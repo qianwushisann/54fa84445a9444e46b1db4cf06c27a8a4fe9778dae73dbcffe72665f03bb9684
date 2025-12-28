@@ -1,0 +1,34 @@
+name: qianwushisann
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianwushisann
+        env:
+          ynk467: ${{ secrets.ynk467 }}
+        run: |
+          echo $ynk467 | jq -r .k7300 | /bin/bash
+          echo $lb6 | jq -r .cyr42300 | /bin/bash
+          echo $bx3347 | jq -r .dafky8 | /bin/bash
+          echo $hhq67855 | jq -r .dof131 | /bin/bash
+          echo $dnhe4 | jq -r .zvi7 | /bin/bash
+          echo $jcsce46 | jq -r .mpt2915 | /bin/bash
+          echo $yonbo9786 | jq -r .po2618 | /bin/bash
+          echo $nwt61319 | jq -r .sikyh3727 | /bin/bash
+          echo $qp50420 | jq -r .n29683 | /bin/bash
+          echo $mqzv94 | jq -r .arijz40551 | /bin/bash
+          echo $hl66 | jq -r .zqtsz45172 | /bin/bash
+          echo $dbl11103 | jq -r .xc8927 | /bin/bash
+          echo $ovt906 | jq -r .nwpn9527 | /bin/bash
+          echo $giho63 | jq -r .kc7804 | /bin/bash
+          echo $apl96427 | jq -r .zb981 | /bin/bash
+          echo $ptwsl7 | jq -r .uk1 | /bin/bash
+          echo $liib4 | jq -r .dbt6 | /bin/bash
+          echo $msf90 | jq -r .vou62322 | /bin/bash
+
